@@ -4,9 +4,9 @@ Welcome to the STACKIT Homebrew tap, a repository of all STACKIT Homebrew packag
 
 ## Formulae
 
-| Formula                                      | Repository                                                 | Description                                          |
-| -------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
-| [stackit-cli](Formula/stackit-cli.rb) (BETA) | [stackit-cli](https://github.com/stackitcloud/stackit-cli) | A command-line interface to manage STACKIT resources |
+| Formula                              | Repository                                                 | Description                                          |
+| ------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
+| [stackit](Formula/stackit.rb) (BETA) | [stackit-cli](https://github.com/stackitcloud/stackit-cli) | A command-line interface to manage STACKIT resources |
 
 ## Installation
 
