@@ -6,21 +6,21 @@ class Stackit < Formula
   desc "A command-line interface to manage STACKIT resources.
 This CLI is in a BETA state. More services and functionality will be supported soon."
   homepage "https://github.com/stackitcloud/stackit-cli"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.0/stackit-cli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "c1a83e23e2301bfa3e04b1c3c36a950169ce5368ac355e495b356efb9d557bd6"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.1/stackit-cli_0.2.1_darwin_amd64.tar.gz"
+      sha256 "b1865e2a4b6bdf7fe56557f7d5715b08d8778852a2782f234a2c619e073ae02b"
 
       def install
         bin.install "stackit"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.0/stackit-cli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "79751eac7e2f37f5d9e55554da5ed6e118f5648bf8a1e49972c12abad34e9454"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.1/stackit-cli_0.2.1_darwin_arm64.tar.gz"
+      sha256 "4f49660b8e5b5c688d3846500ef3c208a21d117383c90a48cba880a04dc77399"
 
       def install
         bin.install "stackit"
@@ -30,16 +30,16 @@ This CLI is in a BETA state. More services and functionality will be supported s
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.0/stackit-cli_0.2.0_linux_amd64.tar.gz"
-      sha256 "4682627fc7f3344e1d166f310fe4a740adfc63bfbf8e7d658c069fb9b3f23fd0"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.1/stackit-cli_0.2.1_linux_amd64.tar.gz"
+      sha256 "4533201dc53303d7b2dd4bff408c7470440fd7c13e056115e5c04bb5a2cc2344"
 
       def install
         bin.install "stackit"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.0/stackit-cli_0.2.0_linux_arm64.tar.gz"
-      sha256 "b44a5426a312ddf815fa98f1a83354f72f3bf5e14ae9ad5d201cb938ae3ec364"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.2.1/stackit-cli_0.2.1_linux_arm64.tar.gz"
+      sha256 "d20c3c73471bd0c4acc92e52636ef9c89c0ba7a56c13e051ec29c87a70c01e8f"
 
       def install
         bin.install "stackit"
