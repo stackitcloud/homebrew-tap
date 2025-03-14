@@ -16,6 +16,8 @@ This CLI is in a beta state. More services and functionality will be supported s
 
       def install
         bin.install "stackit"
+
+        generate_completions_from_executable(bin/"stackit", "completion")
       end
     end
     if Hardware::CPU.arm?
@@ -24,6 +26,8 @@ This CLI is in a beta state. More services and functionality will be supported s
 
       def install
         bin.install "stackit"
+
+        generate_completions_from_executable(bin/"stackit", "completion")
       end
     end
   end
@@ -36,6 +40,8 @@ This CLI is in a beta state. More services and functionality will be supported s
 
         def install
           bin.install "stackit"
+
+          generate_completions_from_executable(bin/"stackit", "completion")
         end
       end
     end
@@ -46,6 +52,8 @@ This CLI is in a beta state. More services and functionality will be supported s
 
         def install
           bin.install "stackit"
+
+          generate_completions_from_executable(bin/"stackit", "completion")
         end
       end
     end
