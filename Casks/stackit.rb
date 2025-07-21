@@ -3,7 +3,7 @@ cask "stackit" do
   desc "A command-line interface to manage STACKIT resources.
 This CLI is in a beta state. More services and functionality will be supported soon."
   homepage "https://github.com/stackitcloud/stackit-cli"
-  version "0.36.0"
+  version "0.37.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -16,23 +16,23 @@ This CLI is in a beta state. More services and functionality will be supported s
 
   on_macos do
     on_intel do
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.36.0/stackit-cli_0.36.0_darwin_amd64.tar.gz"
-      sha256 "9e1a9b32fabf7f69703e2a6056146e8fce34bb907ebb9c5b63ffda34682612cf"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.37.0/stackit-cli_0.37.0_darwin_amd64.tar.gz"
+      sha256 "b904c0ab380ca7fee46f19c656c50b59e3562a6da8d4b50e63cc0c3c62db6585"
     end
     on_arm do
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.36.0/stackit-cli_0.36.0_darwin_arm64.tar.gz"
-      sha256 "98107cf787c9656382d0790bb02f6dffbc38ad7454581f5699d6e005c2fd8dc6"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.37.0/stackit-cli_0.37.0_darwin_arm64.tar.gz"
+      sha256 "90caeea784df9aea9f6b3eb7df83dfc8ecc5e48b9256ac56eb6c3d55f0710672"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.36.0/stackit-cli_0.36.0_linux_amd64.tar.gz"
-      sha256 "faaabf197b404541e51b5fdf9d0e8e8a8540e15231924ee75130fd2191e26809"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.37.0/stackit-cli_0.37.0_linux_amd64.tar.gz"
+      sha256 "75049d04ba216b5f27ddea34f3273cc2b026718623ef33335f2555269f39abe3"
     end
     on_arm do
-      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.36.0/stackit-cli_0.36.0_linux_arm64.tar.gz"
-      sha256 "8c068046fdff5ee1ab3c6c898506fcd6b6834e48d8e53065e106e98483bcb2a6"
+      url "https://github.com/stackitcloud/stackit-cli/releases/download/v0.37.0/stackit-cli_0.37.0_linux_arm64.tar.gz"
+      sha256 "9d397433e6cdb4d6eb744524ac487b9dbd4adccff64273462ae724e034ef4f26"
     end
   end
 
