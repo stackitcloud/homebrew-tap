@@ -1,25 +1,25 @@
 # STACKIT Homebrew Tap
 
-Welcome to the STACKIT Homebrew tap, a repository of all STACKIT Homebrew packages (formulae).
+Welcome to the STACKIT Homebrew tap, a repository of all STACKIT Homebrew packages.
 
-## Formulae
+## Packages
 
-| Formula                              | Repository                                                 | Description                                          |
+| Package                              | Repository                                                 | Description                                          |
 | ------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
-| [stackit](Formula/stackit.rb) (BETA) | [stackit-cli](https://github.com/stackitcloud/stackit-cli) | A command-line interface to manage STACKIT resources |
+| [stackit](Casks/stackit.rb) | [stackit-cli](https://github.com/stackitcloud/stackit-cli) | A command-line interface to manage STACKIT resources |
 
 ## Installation
 
-To install a STACKIT formula through the [Homebrew](https://brew.sh/) package manager, you need to register the STACKIT tap via:
+To install a STACKIT package through the [Homebrew](https://brew.sh/) package manager, you need to register the STACKIT tap via:
 
 ```shell
 brew tap stackitcloud/tap
 ```
 
-Then you can install the individual formula via:
+Then you can install the individual package via:
 
 ```shell
-brew install <FORMULA>
+brew install <PACKAGE>
 ```
 
 ## Reporting issues
