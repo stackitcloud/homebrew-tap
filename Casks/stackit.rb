@@ -36,9 +36,5 @@ This CLI is in a beta state. More services and functionality will be supported s
     end
   end
 
-  conflicts_with formula: [
-      "stackit",
-    ]
-
   # No zap stanza required
 end
