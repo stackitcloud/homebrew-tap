@@ -10,9 +10,6 @@ cask "stackit" do
   end
 
   binary "stackit"
-  bash_completion "./completions/stackit.bash"
-  zsh_completion "./completions/stackit.zsh"
-  fish_completion "./completions/stackit.fish"
 
   on_macos do
     on_intel do
