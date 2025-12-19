@@ -3,7 +3,7 @@ cask "stackit" do
   name "stackit"
   desc "A command-line interface to manage STACKIT resources."
   homepage "https://github.com/stackitcloud/stackit-cli"
-  version "0.49.0"
+  version "0.50.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "stackit" do
   on_macos do
     on_intel do
       url "https://github.com/stackitcloud/stackit-cli/releases/download/v#{version}/stackit-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "dcb8d56c22479ea58d239cfc8458e6cb5b3d521fb35e4f8ebfcf91bfb7036d2f"
+      sha256 "adf869373084cdc5a37a0d352f02786cb2741520ab526767b28c3b358fd8513c"
     end
     on_arm do
       url "https://github.com/stackitcloud/stackit-cli/releases/download/v#{version}/stackit-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "d853f5913ed206033ace46f27c0377b616d03481cc99bc8ad7f4f8fee5cb1dc9"
+      sha256 "96e38b4a0ee312bb9dce2578c36eef71f21aee67d3492f7ce21e92e07672f671"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/stackitcloud/stackit-cli/releases/download/v#{version}/stackit-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "9aed3fcb8f049cc43c9289974507f5e8e33b06da5bb619f0a54016e673f81390"
+      sha256 "b760654a73876b9247bd979266fa389be9f1f52c79f981fc4cb3499da508c86b"
     end
     on_arm do
       url "https://github.com/stackitcloud/stackit-cli/releases/download/v#{version}/stackit-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "7d4ceff23e35ddcae67eb75b22bee1724365abf4bdac39b10788edeb73cd0fe6"
+      sha256 "ef5ef167493304a65784f52c72d28d56f60aa346848d1cff461f65aebc128148"
     end
   end
 
