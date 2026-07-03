@@ -16,10 +16,10 @@ To install a STACKIT package through the [Homebrew](https://brew.sh/) package ma
 brew tap stackitcloud/tap
 ```
 
-Then you can install the individual package via:
+Then you can install (and trust) the individual package via:
 
 ```shell
-brew install <PACKAGE>
+brew install --cask stackitcloud/tap/<PACKAGE>
 ```
 
 ## Reporting issues
